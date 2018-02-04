@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/OCA/carrier-delivery.svg?branch=10.0)](https://travis-ci.org/OCA/carrier-delivery)
-[![Coverage Status](https://coveralls.io/repos/OCA/carrier-delivery/badge.svg?branch=10.0)](https://coveralls.io/r/OCA/carrier-delivery?branch=10.0)
+[![Build Status](https://travis-ci.org/OCA/delivery-carrier.svg?branch=10.0)](https://travis-ci.org/OCA/delivery-carrier)
+[![Coverage Status](https://coveralls.io/repos/OCA/delivery-carrier/badge.svg?branch=10.0)](https://coveralls.io/r/OCA/delivery-carrier?branch=10.0)
 
 Carriers And Deliveries Management
 ==================================
@@ -18,8 +18,9 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
-[base_delivery_carrier_label](base_delivery_carrier_label/) | 10.0.1.0.0 | Base module for carrier labels
+[base_delivery_carrier_label](base_delivery_carrier_label/) | 10.0.1.1.0 | Base module for carrier labels
 [delivery_carrier_b2c](delivery_carrier_b2c/) | 10.0.0.1.0 | Delivery Carrier Business To Customer
+[delivery_multi_destination](delivery_multi_destination/) | 10.0.1.1.0 | Multiple destinations for the same delivery method
 [sale_delivery_rate](sale_delivery_rate/) | 10.0.1.0.0 | Extends notion of delivery carrier rate quotes to sale orders
 [stock_picking_delivery_rate](stock_picking_delivery_rate/) | 10.0.1.0.0 | Adds a concept of rate quotes for stock pickings
 

@@ -3,30 +3,30 @@
 # * stock_picking_delivery_rate
 # 
 # Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2017
+# Peter Hageman <hageman.p@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-15 18:21+0000\n"
 "PO-Revision-Date: 2017-12-15 18:21+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
-"Language-Team: Slovenian (https://www.transifex.com/oca/teams/23907/sl/)\n"
+"Last-Translator: Peter Hageman <hageman.p@gmail.com>, 2017\n"
+"Language-Team: Dutch (Netherlands) (https://www.transifex.com/oca/teams/23907/nl_NL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: sl\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: stock_picking_delivery_rate
 #: model:ir.ui.view,arch_db:stock_picking_delivery_rate.stock_picking_rate_purchase_view_form
 msgid "Cancel"
-msgstr ""
+msgstr "Annuleren"
 
 #. module: stock_picking_delivery_rate
 #: model:ir.model,name:stock_picking_delivery_rate.model_delivery_carrier
 msgid "Carrier"
-msgstr "Prevoznik"
+msgstr "Vervoerder"
 
 #. module: stock_picking_delivery_rate
 #: selection:stock.picking.rate.purchase,group_by:0
@@ -51,13 +51,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_delivery_rate.field_stock_picking_rate_create_uid
 #: model:ir.model.fields,field_description:stock_picking_delivery_rate.field_stock_picking_rate_purchase_create_uid
 msgid "Created by"
-msgstr "Ustvaril"
+msgstr "Aangemaakt door"
 
 #. module: stock_picking_delivery_rate
 #: model:ir.model.fields,field_description:stock_picking_delivery_rate.field_stock_picking_rate_create_date
 #: model:ir.model.fields,field_description:stock_picking_delivery_rate.field_stock_picking_rate_purchase_create_date
 msgid "Created on"
-msgstr "Ustvarjeno"
+msgstr "Aangemaakt op"
 
 #. module: stock_picking_delivery_rate
 #: model:ir.ui.view,arch_db:stock_picking_delivery_rate.stock_picking_rate_view_search
@@ -115,7 +115,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_delivery_rate.field_stock_picking_rate_display_name
 #: model:ir.model.fields,field_description:stock_picking_delivery_rate.field_stock_picking_rate_purchase_display_name
 msgid "Display Name"
-msgstr "Prikazni naziv"
+msgstr "Weergavenaam"
 
 #. module: stock_picking_delivery_rate
 #: model:ir.model.fields,field_description:stock_picking_delivery_rate.field_delivery_carrier_rate_date_delivery
@@ -126,7 +126,7 @@ msgstr ""
 #. module: stock_picking_delivery_rate
 #: model:ir.model.fields,field_description:stock_picking_delivery_rate.field_stock_picking_rate_purchase_group_by
 msgid "Group by"
-msgstr ""
+msgstr "Groeperen op"
 
 #. module: stock_picking_delivery_rate
 #: model:ir.model.fields,field_description:stock_picking_delivery_rate.field_stock_picking_rate_id
@@ -138,25 +138,25 @@ msgstr "ID"
 #: model:ir.model.fields,field_description:stock_picking_delivery_rate.field_delivery_carrier_rate_is_purchased
 #: model:ir.model.fields,field_description:stock_picking_delivery_rate.field_stock_picking_rate_is_purchased
 msgid "Is purchased"
-msgstr ""
+msgstr "Is gekocht"
 
 #. module: stock_picking_delivery_rate
 #: model:ir.model.fields,field_description:stock_picking_delivery_rate.field_stock_picking_rate___last_update
 #: model:ir.model.fields,field_description:stock_picking_delivery_rate.field_stock_picking_rate_purchase___last_update
 msgid "Last Modified on"
-msgstr "Zadnjič spremenjeno"
+msgstr "Laatst aangepast op"
 
 #. module: stock_picking_delivery_rate
 #: model:ir.model.fields,field_description:stock_picking_delivery_rate.field_stock_picking_rate_purchase_write_uid
 #: model:ir.model.fields,field_description:stock_picking_delivery_rate.field_stock_picking_rate_write_uid
 msgid "Last Updated by"
-msgstr "Zadnjič posodobil"
+msgstr "Laatst bijgewerkt door"
 
 #. module: stock_picking_delivery_rate
 #: model:ir.model.fields,field_description:stock_picking_delivery_rate.field_stock_picking_rate_purchase_write_date
 #: model:ir.model.fields,field_description:stock_picking_delivery_rate.field_stock_picking_rate_write_date
 msgid "Last Updated on"
-msgstr "Zadnjič posodobljeno"
+msgstr "Laatst bijgewerkt op"
 
 #. module: stock_picking_delivery_rate
 #: model:ir.model.fields,field_description:stock_picking_delivery_rate.field_delivery_carrier_rate_list_rate_currency_id
@@ -173,7 +173,7 @@ msgstr ""
 #. module: stock_picking_delivery_rate
 #: selection:stock.picking.rate.purchase,group_by:0
 msgid "No Grouping"
-msgstr ""
+msgstr "Niet groeperen"
 
 #. module: stock_picking_delivery_rate
 #: model:ir.ui.view,arch_db:stock_picking_delivery_rate.stock_picking_rate_view_search
@@ -189,7 +189,7 @@ msgstr ""
 #. module: stock_picking_delivery_rate
 #: model:ir.model.fields,field_description:stock_picking_delivery_rate.field_stock_picking_rate_purchase_date_po
 msgid "Purchase Order Date"
-msgstr ""
+msgstr "Inkooporderdatum"
 
 #. module: stock_picking_delivery_rate
 #: model:ir.actions.act_window,name:stock_picking_delivery_rate.stock_picking_rate_purchase_action
@@ -253,7 +253,7 @@ msgstr ""
 #. module: stock_picking_delivery_rate
 #: model:ir.model.fields,field_description:stock_picking_delivery_rate.field_stock_picking_rate_picking_id
 msgid "Stock Picking"
-msgstr "Zbirnik zaloge"
+msgstr "Orderpicken"
 
 #. module: stock_picking_delivery_rate
 #: model:ir.model,name:stock_picking_delivery_rate.model_stock_picking_rate
@@ -298,4 +298,4 @@ msgstr ""
 #. module: stock_picking_delivery_rate
 #: model:ir.ui.view,arch_db:stock_picking_delivery_rate.stock_picking_rate_purchase_view_form
 msgid "or"
-msgstr ""
+msgstr "of"
