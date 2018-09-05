@@ -6,8 +6,6 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-10 11:06+0000\n"
-"PO-Revision-Date: 2014-12-10 11:06+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -153,6 +151,12 @@ msgid "Deposit Slip n°"
 msgstr ""
 
 #. module: delivery_carrier_deposit
+#: field:delivery.deposit.wizard,display_name:0
+#: field:deposit.slip,display_name:0
+msgid "Display Name"
+msgstr ""
+
+#. module: delivery_carrier_deposit
 #: selection:deposit.slip,state:0
 msgid "Done"
 msgstr ""
@@ -204,6 +208,12 @@ msgid "Last Message Date"
 msgstr ""
 
 #. module: delivery_carrier_deposit
+#: field:delivery.deposit.wizard,__last_update:0
+#: field:deposit.slip,__last_update:0
+msgid "Last Modified on"
+msgstr ""
+
+#. module: delivery_carrier_deposit
 #: field:delivery.deposit.wizard,write_uid:0
 #: field:deposit.slip,write_uid:0
 msgid "Last Updated by"
@@ -241,6 +251,11 @@ msgid "Nr of"
 msgstr ""
 
 #. module: delivery_carrier_deposit
+#: field:deposit.slip,number_of_packages:0
+msgid "Number of Packages"
+msgstr ""
+
+#. module: delivery_carrier_deposit
 #: view:website:delivery_carrier_deposit.report_generic_deposit_slip
 msgid "Parcel numbers"
 msgstr ""
@@ -248,6 +263,12 @@ msgstr ""
 #. module: delivery_carrier_deposit
 #: model:ir.model,name:delivery_carrier_deposit.model_stock_picking
 msgid "Picking List"
+msgstr ""
+
+#. module: delivery_carrier_deposit
+#: field:delivery.deposit.wizard,picking_type_id:0
+#: field:deposit.slip,picking_type_id:0
+msgid "Picking Type"
 msgstr ""
 
 #. module: delivery_carrier_deposit
@@ -276,7 +297,7 @@ msgid "Summary"
 msgstr ""
 
 #. module: delivery_carrier_deposit
-#: code:addons/delivery_carrier_deposit/wizard/deposit.py:77
+#: code:addons/delivery_carrier_deposit/wizard/deposit.py:94
 #, python-format
 msgid "There are no delivery orders in transferred state with a delivery method type '%s' not already linked to a deposit slip."
 msgstr ""
@@ -284,6 +305,11 @@ msgstr ""
 #. module: delivery_carrier_deposit
 #: view:website:delivery_carrier_deposit.report_generic_deposit_slip
 msgid "Total Number of Packages:"
+msgstr ""
+
+#. module: delivery_carrier_deposit
+#: field:deposit.slip,weight:0
+msgid "Total Weight"
 msgstr ""
 
 #. module: delivery_carrier_deposit

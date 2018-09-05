@@ -1,21 +1,22 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * delivery_carrier_deposit
-# 
+#
 # Translators:
 # Paolo Valier, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: delivery-carrier (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-03 01:21+0000\n"
-"PO-Revision-Date: 2016-12-23 08:32+0000\n"
+"POT-Creation-Date: 2017-07-01 02:31+0000\n"
+"PO-Revision-Date: 2017-07-24 17:06+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
-"Language-Team: Spanish (http://www.transifex.com/oca/OCA-delivery-carrier-8-0/language/es/)\n"
+"Language-Team: Spanish (http://www.transifex.com/oca/OCA-delivery-"
+"carrier-8-0/language/es/)\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: delivery_carrier_deposit
@@ -166,7 +167,7 @@ msgstr "Nombre mostrado"
 #. module: delivery_carrier_deposit
 #: selection:deposit.slip,state:0
 msgid "Done"
-msgstr ""
+msgstr "Hecho"
 
 #. module: delivery_carrier_deposit
 #: selection:deposit.slip,state:0
@@ -193,7 +194,9 @@ msgstr "Agrupar por"
 msgid ""
 "Holds the Chatter summary (number of messages, ...). This summary is "
 "directly in html format in order to be inserted in kanban views."
-msgstr "Contiene el resumen del chatter (nº de mensajes, ...). Este resumen está directamente en formato html para ser insertado en vistas kanban."
+msgstr ""
+"Contiene el resumen del chatter (nº de mensajes, ...). Este resumen está "
+"directamente en formato html para ser insertado en vistas kanban."
 
 #. module: delivery_carrier_deposit
 #: field:delivery.deposit.wizard,id:0 field:deposit.slip,id:0
@@ -280,7 +283,7 @@ msgstr "Tipo de albarán"
 #. module: delivery_carrier_deposit
 #: field:deposit.slip,picking_ids:0
 msgid "Pickings"
-msgstr ""
+msgstr "Albaranes"
 
 #. module: delivery_carrier_deposit
 #: view:deposit.slip:delivery_carrier_deposit.view_deposit_slip_form
@@ -300,7 +303,7 @@ msgstr "Estado"
 #. module: delivery_carrier_deposit
 #: field:deposit.slip,message_summary:0
 msgid "Summary"
-msgstr ""
+msgstr "Resumen"
 
 #. module: delivery_carrier_deposit
 #: code:addons/delivery_carrier_deposit/wizard/deposit.py:94

@@ -1,21 +1,23 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * base_delivery_carrier_label
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: delivery-carrier (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-22 09:11+0000\n"
-"PO-Revision-Date: 2016-11-21 08:55+0000\n"
+"POT-Creation-Date: 2017-03-28 02:37+0000\n"
+"PO-Revision-Date: 2017-04-25 10:40+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
-"Language-Team: Latvian (http://www.transifex.com/oca/OCA-delivery-carrier-8-0/language/lv/)\n"
+"Language-Team: Latvian (http://www.transifex.com/oca/OCA-delivery-"
+"carrier-8-0/language/lv/)\n"
+"Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: lv\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
 
 #. module: base_delivery_carrier_label
 #: field:carrier.account,account:0
@@ -96,7 +98,7 @@ msgstr ""
 #. module: base_delivery_carrier_label
 #: field:shipping.label,company_id:0
 msgid "Company"
-msgstr ""
+msgstr "Uzņēmums"
 
 #. module: base_delivery_carrier_label
 #: view:stock.picking:base_delivery_carrier_label.view_picking_withcarrier_out_form
@@ -347,7 +349,8 @@ msgstr ""
 #, python-format
 msgid ""
 "Some labels already exist for the picking %s.\n"
-"Please delete the existing labels in the attachments of this picking and try again"
+"Please delete the existing labels in the attachments of this picking and try "
+"again"
 msgstr ""
 
 #. module: base_delivery_carrier_label
@@ -368,8 +371,7 @@ msgstr ""
 #. module: base_delivery_carrier_label
 #: help:stock.quant.package,weight:0
 msgid ""
-"Total weight of the package in kg, including the weight of the logistic "
-"unit."
+"Total weight of the package in kg, including the weight of the logistic unit."
 msgstr ""
 
 #. module: base_delivery_carrier_label

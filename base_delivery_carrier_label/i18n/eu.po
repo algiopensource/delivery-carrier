@@ -1,20 +1,21 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * base_delivery_carrier_label
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: delivery-carrier (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-22 09:11+0000\n"
-"PO-Revision-Date: 2016-11-21 08:54+0000\n"
+"POT-Creation-Date: 2017-02-04 01:30+0000\n"
+"PO-Revision-Date: 2017-02-23 15:58+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
-"Language-Team: Basque (http://www.transifex.com/oca/OCA-delivery-carrier-8-0/language/eu/)\n"
+"Language-Team: Basque (http://www.transifex.com/oca/OCA-delivery-carrier-8-0/"
+"language/eu/)\n"
+"Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: eu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: base_delivery_carrier_label
@@ -91,12 +92,12 @@ msgstr ""
 #: field:delivery.carrier.template.option,code:0
 #: field:stock.picking,carrier_code:0
 msgid "Code"
-msgstr ""
+msgstr "Kodea"
 
 #. module: base_delivery_carrier_label
 #: field:shipping.label,company_id:0
 msgid "Company"
-msgstr ""
+msgstr "Enpresa"
 
 #. module: base_delivery_carrier_label
 #: view:stock.picking:base_delivery_carrier_label.view_picking_withcarrier_out_form
@@ -299,7 +300,7 @@ msgstr ""
 #. module: base_delivery_carrier_label
 #: field:shipping.label,partner_id:0
 msgid "Partner"
-msgstr ""
+msgstr "Kidea"
 
 #. module: base_delivery_carrier_label
 #: field:delivery.carrier.option,partner_id:0
@@ -347,7 +348,8 @@ msgstr ""
 #, python-format
 msgid ""
 "Some labels already exist for the picking %s.\n"
-"Please delete the existing labels in the attachments of this picking and try again"
+"Please delete the existing labels in the attachments of this picking and try "
+"again"
 msgstr ""
 
 #. module: base_delivery_carrier_label
@@ -368,8 +370,7 @@ msgstr ""
 #. module: base_delivery_carrier_label
 #: help:stock.quant.package,weight:0
 msgid ""
-"Total weight of the package in kg, including the weight of the logistic "
-"unit."
+"Total weight of the package in kg, including the weight of the logistic unit."
 msgstr ""
 
 #. module: base_delivery_carrier_label

@@ -1,13 +1,11 @@
-# Translation of OpenERP Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 #	* base_delivery_carrier_files
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenERP Server 7.0\n"
+"Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-31 16:20+0000\n"
-"PO-Revision-Date: 2014-07-31 16:20+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,7 +14,7 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: base_delivery_carrier_files
-#: view:stock.picking.out:0
+#: view:stock.picking:base_delivery_carrier_files.view_picking_out_form_carrier_file
 msgid "Additional Info"
 msgstr ""
 
@@ -26,69 +24,87 @@ msgid "All the pickings will be grouped in the same file. Has no effect when the
 msgstr ""
 
 #. module: base_delivery_carrier_files
-#: code:_description:0
 #: model:ir.model,name:base_delivery_carrier_files.model_delivery_carrier
-#, python-format
 msgid "Carrier"
 msgstr ""
 
 #. module: base_delivery_carrier_files
 #: field:delivery.carrier,carrier_file_id:0
-#: view:delivery.carrier.file:0
+#: view:delivery.carrier.file:base_delivery_carrier_files.view_delivery_carrier_file_form
+#: view:delivery.carrier.file:base_delivery_carrier_files.view_delivery_carrier_file_tree
 #: model:ir.actions.act_window,name:base_delivery_carrier_files.action_delivery_carrier_file_form
-#: model:ir.model.fields,field_description:base_delivery_carrier_files.field_delivery_carrier_carrier_file_id
 #: model:ir.ui.menu,name:base_delivery_carrier_files.menu_action_delivery_carrier_file_form
 msgid "Carrier File"
 msgstr ""
 
 #. module: base_delivery_carrier_files
-#: model:ir.model.fields,field_description:base_delivery_carrier_files.field_stock_picking_carrier_file_generated
-#: model:ir.model.fields,field_description:base_delivery_carrier_files.field_stock_picking_carrier_file_generated_5129
 #: field:stock.picking,carrier_file_generated:0
-#: field:stock.picking.out,carrier_file_generated:0
 msgid "Carrier File Generated"
 msgstr ""
 
 #. module: base_delivery_carrier_files
-#: view:stock.picking.out:0
+#: view:stock.picking:base_delivery_carrier_files.view_picking_out_search_carrier_file
 msgid "Carrier File To Generate"
 msgstr ""
 
 #. module: base_delivery_carrier_files
-#: view:delivery.carrier.file.generate:0
+#: view:delivery.carrier.file.generate:base_delivery_carrier_files.view_delivery_carrier_file_generate
 msgid "Carrier Files"
 msgstr ""
 
 #. module: base_delivery_carrier_files
-#: view:delivery.carrier.file.generate:0
+#: view:delivery.carrier.file.generate:base_delivery_carrier_files.view_delivery_carrier_file_generate
 msgid "Close"
 msgstr ""
 
 #. module: base_delivery_carrier_files
-#: code:_description:0
-#: view:delivery.carrier.file.generate:0
-#: field:delivery.carrier.file.generate,picking_ids:0
-#: model:ir.model,name:base_delivery_carrier_files.model_stock_picking_out
-#: model:ir.model.fields,field_description:base_delivery_carrier_files.field_delivery_carrier_file_generate_picking_ids
-#, python-format
+#: field:delivery.carrier.file,create_uid:0
+#: field:delivery.carrier.file.generate,create_uid:0
+msgid "Created by"
+msgstr ""
+
+#. module: base_delivery_carrier_files
+#: field:delivery.carrier.file,create_date:0
+#: field:delivery.carrier.file.generate,create_date:0
+msgid "Created on"
+msgstr ""
+
+#. module: base_delivery_carrier_files
+#: model:stock.location,name:base_delivery_carrier_files.location_delivery_counter
+msgid "Delivery Counter"
+msgstr ""
+
+#. module: base_delivery_carrier_files
+#: view:delivery.carrier.file.generate:base_delivery_carrier_files.view_delivery_carrier_file_generate
+#: field:delivery.carrier.file.generate,pickings:0
 msgid "Delivery Orders"
 msgstr ""
 
 #. module: base_delivery_carrier_files
-#: view:stock.picking.out:0
+#: view:stock.picking:base_delivery_carrier_files.view_picking_out_search_carrier_file
 msgid "Delivery orders to invoice"
 msgstr ""
 
 #. module: base_delivery_carrier_files
+#: field:delivery.carrier.file,display_name:0
+#: field:delivery.carrier.file.generate,display_name:0
+msgid "Display Name"
+msgstr ""
+
+#. module: base_delivery_carrier_files
 #: field:delivery.carrier.file,export_path:0
-#: model:ir.model.fields,field_description:base_delivery_carrier_files.field_delivery_carrier_file_export_path
 msgid "Export Path"
 msgstr ""
 
 #. module: base_delivery_carrier_files
 #: field:delivery.carrier.file,auto_export:0
-#: model:ir.model.fields,field_description:base_delivery_carrier_files.field_delivery_carrier_file_auto_export
 msgid "Export at delivery order process"
+msgstr ""
+
+#. module: base_delivery_carrier_files
+#: code:addons/base_delivery_carrier_files/carrier_file.py:62
+#, python-format
+msgid "Export path is not defined for carrier file %s"
 msgstr ""
 
 #. module: base_delivery_carrier_files
@@ -97,19 +113,34 @@ msgid "Generate Carrier Files"
 msgstr ""
 
 #. module: base_delivery_carrier_files
-#: view:delivery.carrier.file.generate:0
+#: view:delivery.carrier.file.generate:base_delivery_carrier_files.view_delivery_carrier_file_generate
 msgid "Generate Files"
 msgstr ""
 
 #. module: base_delivery_carrier_files
-#: view:delivery.carrier.file.generate:0
+#: view:delivery.carrier.file.generate:base_delivery_carrier_files.view_delivery_carrier_file_generate
 msgid "Generate the carrier files for the selected delivery orders."
 msgstr ""
 
 #. module: base_delivery_carrier_files
 #: field:delivery.carrier.file,group_pickings:0
-#: model:ir.model.fields,field_description:base_delivery_carrier_files.field_delivery_carrier_file_group_pickings
 msgid "Group all pickings in one file"
+msgstr ""
+
+#. module: base_delivery_carrier_files
+#: field:delivery.carrier.file,id:0
+#: field:delivery.carrier.file.generate,id:0
+msgid "ID"
+msgstr ""
+
+#. module: base_delivery_carrier_files
+#: model:product.template,name:base_delivery_carrier_files.product_icecream_product_template
+msgid "Ice Cream"
+msgstr ""
+
+#. module: base_delivery_carrier_files
+#: model:product.template,description:base_delivery_carrier_files.product_icecream_product_template
+msgid "Ice cream can be mass-produced and thus is widely available in developed parts of the world. Ice cream can be purchased in large cartons (vats and squrounds) from supermarkets and grocery stores, in smaller quantities from ice cream shops, convenience stores, and milk bars, and in individual servings from small carts or vans at public events."
 msgstr ""
 
 #. module: base_delivery_carrier_files
@@ -119,27 +150,62 @@ msgid "If this option is used, new files will be generated for selected picking 
 msgstr ""
 
 #. module: base_delivery_carrier_files
+#: field:delivery.carrier.file,__last_update:0
+#: field:delivery.carrier.file.generate,__last_update:0
+msgid "Last Modified on"
+msgstr ""
+
+#. module: base_delivery_carrier_files
+#: field:delivery.carrier.file,write_uid:0
+#: field:delivery.carrier.file.generate,write_uid:0
+msgid "Last Updated by"
+msgstr ""
+
+#. module: base_delivery_carrier_files
+#: field:delivery.carrier.file,write_date:0
+#: field:delivery.carrier.file.generate,write_date:0
+msgid "Last Updated on"
+msgstr ""
+
+#. module: base_delivery_carrier_files
 #: field:delivery.carrier.file,name:0
-#: model:ir.model.fields,field_description:base_delivery_carrier_files.field_delivery_carrier_file_name
 msgid "Name"
 msgstr ""
 
 #. module: base_delivery_carrier_files
-#: code:_description:0
-#: model:ir.model,name:base_delivery_carrier_files.model_stock_picking
+#: code:addons/base_delivery_carrier_files/wizard/generate_carrier_files.py:44
 #, python-format
+msgid "No delivery orders selected"
+msgstr ""
+
+#. module: base_delivery_carrier_files
+#: model:stock.picking.type,name:base_delivery_carrier_files.outgoing_shipment_type_carrier_file
+#: model:stock.picking.type,name:base_delivery_carrier_files.outgoing_shipment_type_carrier_file_manual
+msgid "Outgoing Ice Cream"
+msgstr ""
+
+#. module: base_delivery_carrier_files
+#: model:ir.model,name:base_delivery_carrier_files.model_stock_picking
 msgid "Picking List"
 msgstr ""
 
 #. module: base_delivery_carrier_files
 #: field:delivery.carrier.file.generate,recreate:0
-#: model:ir.model.fields,field_description:base_delivery_carrier_files.field_delivery_carrier_file_generate_recreate
 msgid "Recreate files"
 msgstr ""
 
 #. module: base_delivery_carrier_files
+#: model:stock.location,name:base_delivery_carrier_files.location_refrigerator
+msgid "Refrigerator"
+msgstr ""
+
+#. module: base_delivery_carrier_files
+#: model:ir.model,name:base_delivery_carrier_files.model_stock_move
+msgid "Stock Move"
+msgstr ""
+
+#. module: base_delivery_carrier_files
 #: help:stock.picking,carrier_file_generated:0
-#: help:stock.picking.out,carrier_file_generated:0
 msgid "The file for the delivery carrier has been generated."
 msgstr ""
 
@@ -150,37 +216,26 @@ msgstr ""
 
 #. module: base_delivery_carrier_files
 #: field:delivery.carrier.file,type:0
-#: model:ir.model.fields,field_description:base_delivery_carrier_files.field_delivery_carrier_file_type
 msgid "Type"
 msgstr ""
 
 #. module: base_delivery_carrier_files
 #: field:delivery.carrier.file,write_mode:0
-#: model:ir.model.fields,field_description:base_delivery_carrier_files.field_delivery_carrier_file_write_mode
 msgid "Write on"
 msgstr ""
 
 #. module: base_delivery_carrier_files
-#: view:delivery.carrier.file:0
+#: view:delivery.carrier.file:base_delivery_carrier_files.view_delivery_carrier_file_form
 msgid "Write options"
 msgstr ""
 
 #. module: base_delivery_carrier_files
-#: code:_description:0
-#: model:ir.model,name:base_delivery_carrier_files.model_delivery_carrier_file
-#, python-format
-msgid "delivery.carrier.file"
+#: model:stock.location,name:base_delivery_carrier_files.location_opening
+msgid "opening"
 msgstr ""
 
 #. module: base_delivery_carrier_files
-#: code:_description:0
-#: model:ir.model,name:base_delivery_carrier_files.model_delivery_carrier_file_generate
-#, python-format
-msgid "delivery.carrier.file.generate"
-msgstr ""
-
-#. module: base_delivery_carrier_files
-#: view:delivery.carrier.file.generate:0
+#: view:delivery.carrier.file.generate:base_delivery_carrier_files.view_delivery_carrier_file_generate
 msgid "or"
 msgstr ""
 
